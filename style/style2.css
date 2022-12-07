@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background: url(https://c1.wallpaperflare.com/preview/457/798/441/black-and-white-sky-clouds-cloud-sky.jpg);
+    background-size: cover;
+}
+
+#overlay {
+    /* position: relative; */
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.436);
+    color: white;
+    /* border: 5px solid blue; */
+}
+
+.left {
+    width: 50%;
+    /* height: 100vh; */
+    position: absolute;
+    top: 42%;
+    left: 5%;
+    /* border: 5px solid green; */
+}
+
+#overlay .left h1 {
+    font-size: 50px;
+}
+
+#overlay .left p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 20px;
+    background: transparent;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    border: 3px solid white;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)2s;
+
+}
+
+.right {
+    position: absolute;
+    left: 60%;
+    width: 40%;
+    height: 100%;
+    /* border: 5px solid red; */
+
+}
+
+ .right .images {
+    display: flex;
+    position: relative;
+    /* width: 100%; */
+    height: 100vh; 
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+img {
+    position: absolute;
+    width: 130px;
+    height: 190px;
+    /* left: 60%; */
+    border-radius: 10px;
+    margin: 5px;
+    top: 35%;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) 1.5s;
+}  
+
+#one {
+    left: 20%;
+    /* width: 30%; */
+}
+
+#two {
+    left: 50%;
+}
+
+#three {
+    left: 80%;
+}
+
+#four {
+    top: 70%;
+    left: 20%;
+}
+
+#five {
+    top: 70%;
+    left: 50%;
+}
+
+#six {
+    top: 70%;
+    left: 80%;
+}
+
+img:hover {
+    margin-top: 20px;
+    width: 138px;
+    height: 195px;
+}
+
+button:hover {
+    color: black;
+    background-color: #d9dad8;
+    border: 3px solid #d9dad8;
+    font-weight: 400;
+}

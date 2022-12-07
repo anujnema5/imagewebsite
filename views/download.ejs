@@ -1,0 +1,51 @@
+
+        <%-include("partials/header.ejs")-%>  
+        <%-include("partials/navbar.ejs")-%>  
+    <div class="slider">
+
+        <div class="slides">
+            <!-- Radio button start -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- Radio button end -->
+            
+            <!-- Slide image start -->
+            <div class="slide first">
+                <img src="https://www.format.com/wp-content/uploads/alekzan-powell-5t5krHi1LQ8-unsplash.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="https://www.viewbug.com/media/mediafiles/2015/11/03/60095595_large1300.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2015/08/black-and-white-portrait-tips-3201.jpg?ssl=1" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="https://shotkit.com/wp-content/uploads/2021/02/black_and-white_portraits_christopher_campbell.jpg" alt="">
+            </div>
+            <!-- Slide image end -->
+
+            <!-- Automatic nav start -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+            <!-- Automatic nav end -->
+
+            <!-- Manual Slider start -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!-- Manual Slider End-->
+    </div>
+    <%-include("partials/footer.ejs")-%>  
